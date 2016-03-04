@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="309.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <RadioButton fx:id="heads" layoutX="32.0" layoutY="38.0" mnemonicParsing="false" text="Heads" />
+      <Label layoutX="32.0" layoutY="14.0" prefHeight="17.0" prefWidth="82.0" text="Call It: " />
+      <RadioButton fx:id="tails" layoutX="32.0" layoutY="63.0" mnemonicParsing="false" text="Tails" />
+      <Button fx:id="btn_flip" layoutX="32.0" layoutY="96.0" mnemonicParsing="false" text="Flip" />
+      <Label fx:id="outputLabel" layoutX="32.0" layoutY="138.0" prefHeight="17.0" prefWidth="82.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="55.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="compScore" layoutX="155.0" layoutY="39.0" prefHeight="17.0" prefWidth="72.0" text="Computer: " />
+      <Label fx:id="userScore" layoutX="155.0" layoutY="64.0" prefHeight="17.0" prefWidth="64.0" text="User: " />
+      <Label fx:id="compCount" layoutX="227.0" layoutY="39.0" />
+      <Label fx:id="userCount" layoutX="229.0" layoutY="64.0" prefHeight="17.0" prefWidth="22.0" />
+   </children>
+</AnchorPane>
